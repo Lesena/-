@@ -1,0 +1,26 @@
+.w-header, .w-footer {
+  height: 200px;
+  background: #a1a1a1;
+}
+
+h1 {
+  padding-top: 30px;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+  font-size: 2em;
+  color: #fff;
+}
+
+header, main, footer {
+  width: 960px;
+  background: #101010;
+  margin: 0 auto;
+  height: 200px;
+}
+
+ main {
+   background: #fff;
+ }
+ main h1{
+   color: #000;
+ }

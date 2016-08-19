@@ -1,0 +1,33 @@
+@media only screen and (min-width: 500px) and (max-width: 787px) and (orientation: portrait) {
+  .wrapper {
+    width: 480px;
+    height: 100vh;
+    border: 1px solid hsla(360, 100%, 100%, 0.5);
+    margin: 0 auto;
+    background: #a9a9a9;
+  }
+
+  .menu__ul--v {
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+    width: 300px;
+    background: #a9a9a9;
+  }
+
+  .menu__item--v {
+    margin-bottom: 15px ;
+  }
+
+  .menu__item--v > a {
+     display: block;
+     padding: 3px 5px;
+     background: #ccc;
+     color: #000;
+     position: relative;
+  }
+  .menu__item--v > a:hover {
+    background: #999;
+    color: maroon;
+  }
+}

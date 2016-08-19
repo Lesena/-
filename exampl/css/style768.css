@@ -1,0 +1,31 @@
+@media screen and (min-width: 788px) and (max-width: 979px){
+  .wrapper {
+    width: 768px;
+    height: 100vh;
+    border: 1px solid hsla(360, 100%, 100%, 0.5);
+    margin: 0 auto;
+    background: #c9c9c9;
+  }
+  .menu__ul--v {
+    list-style: none;
+    width: 600px;
+  }
+
+  .menu__item--v {
+    float: left;
+    margin-right: 15px;
+  }
+
+  .menu__item--v > a {
+     display: block;
+     padding: 3px 5px;
+     background: #ccc;
+     color: #000;
+     position: relative;
+  }
+  .menu__item--v > a:hover {
+    background: #999;
+    color: maroon;
+  }
+
+}
