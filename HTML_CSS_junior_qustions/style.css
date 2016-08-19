@@ -1,0 +1,35 @@
+body {
+    background: #21252b;
+}
+
+.wrapper {
+  width: 690px;
+  margin: 0 auto;
+  background: #f0f0f0;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+li {
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
+span {
+  margin-left: 30px;
+  color: hsla(016, 10%, 24%, 1);
+}
+
+i {
+  width: 150px;
+  display: inline-block;
+  font-weight: 800;
+}
